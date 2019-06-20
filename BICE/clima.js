@@ -7,7 +7,10 @@ $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=-33.4378&lon=-70.6
     console.log(data);
     
     // Icono
-    console.log(data.weather.icon);
-    var url = "http://openweathermap.org/img/w/";
+    var icon =data.weather[0].icon;
+    var url = "http://openweathermap.org/img/w/" + icon +".png";
+    
+    $("#imgClima").attr("src",url);
+    
     
 });
