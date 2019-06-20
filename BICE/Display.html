@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>DEMO Banco</title>
+
+<script src="jquery.js" charset="utf-8"></script>
+<script src="clima.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+	<div id="wrapleft">
+
+		<div id="video">
+			<video autoplay loop class="fillWidth visible-lg">
+			<source src="images/BICE.mp4"/>
+        	Your browser does not support the video tag.
+    		</video>
+		</div>
+
+		<div id="foot">
+			<div id="clima">
+				<div id="">
+				<img class="clima" id="imgClima" src="images/solcloud.png">
+			</div>
+			<div id="txtTemperatura">
+				<h1 id="tempe"></h1>
+			</div>
+			</div>
+			<div id="valores">
+				<marquee><h1> DÓLAR $647 EURO $693 </h1></marquee>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="wrapright">
+		<div id="cumpleaños">
+			<div>
+				<h1>Cumpleaños del dia</h1>
+			</div>
+			<div id="txtNombreCumpleaños">
+					<h4> Julio cesar</h4>
+					<h4> Anita la huerfanita</h4>
+					<h4> Otra persona de cumpleaños</h4>
+			</div>
+		</div>
+		<div id="actividades">
+			<div>
+				<h1>actividades del dia</h1>
+			</div>
+			<div id="txtActividades">
+				<table id="tabla">
+					<tr>
+						<td><h4>Ir al baño:</h4></td>
+						<td><h4>13:30</h4></td>
+					</tr>
+					<tr>
+						<td><h4>Salir del baño:</h4></td>
+						<td><h4>14:30</h4></td>
+					</tr>
+
+				</table>
+			</div>
+		</div>
+		<div id="hora">
+			<div id="a"></div>
+				 <div id="picture"></div>
+				 <input type="hidden"id="result"/>
+		</div>
+  	</div>
+    <script src="reloj.js" charset="utf-8"></script>
+
+</body>
+</html>
